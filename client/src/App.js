@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <div className='p-10'>
       <nav>
         <Link className="bg-green-950 text-white font-bold px-5 py-3 m-5 rounded-lg" to={'/create'} >Create</Link>
       </nav>
@@ -17,7 +17,7 @@ function App() {
         <Route path='/update/:id' element={<UpdateUser/>}/>
         <Route path='/create' element={<CreateUser/>}/>
       </Routes>
-    </>
+    </div>
   );
 }
 
