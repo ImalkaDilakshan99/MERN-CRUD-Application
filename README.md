@@ -13,7 +13,9 @@ The frontend is styled using **Tailwind CSS**, and the API endpoints are tested 
 
 ## 📸 Screenshots
 
-![App Screenshot](link-to-screenshot-if-available)
+![Home Page](./screenshots/homepage.png)
+![Create User](./screenshots/createuser.png)
+![Update User](./screenshots/updateuser.png)
 
 ---
 
